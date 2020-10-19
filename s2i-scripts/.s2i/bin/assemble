@@ -14,7 +14,8 @@ echo "---> Installing application source"
 
 
 cp -Rf /tmp/src/*.html ./
-echo "built today" >> ./info.html
+DATE=`date "+%Y-%m-%d"`
+echo "built on $DATE" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
