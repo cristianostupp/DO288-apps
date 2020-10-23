@@ -10,10 +10,6 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-cp -Rf 	/tmp/src/*.html ./
-DATE=`date "+%Y-%m-%d"` 
-echo "Date was changed to yyyy-mm-dd: $DATE" > ./info.html
-
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
