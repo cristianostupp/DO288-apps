@@ -12,6 +12,10 @@ config_s2i
 
 echo "---> Installing application source"
 
+cp -Rv /tmp/src/*.html ./
+DATE=`date "+%Y-%m-%d"`
+echo "Hello folks. This is index.html" > index.html
+echo "This page was implemented on $DATE" > info.html 
 
 ######## CUSTOMIZATION ENDS HERE ############
 
