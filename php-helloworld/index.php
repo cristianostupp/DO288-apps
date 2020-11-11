@@ -1,3 +1,3 @@
 <?php
-print "Hello, World! " . PHP_MESSAGE . "\n";
+print "Hello, World! " . $_ENV["PHP_MESSAGE"] . "\n";
 ?>
